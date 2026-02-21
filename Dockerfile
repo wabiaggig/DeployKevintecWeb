@@ -1,5 +1,5 @@
 # Usamos un servidor Tomcat oficial con Java
-FROM tomcat:9.0-jdk1.8-corretto
+FROM tomcat:9.0-jdk8-corretto
 
 # Limpiamos la carpeta por defecto de Tomcat
 RUN rm -rf /usr/local/tomcat/webapps/*
