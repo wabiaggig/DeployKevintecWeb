@@ -10,5 +10,5 @@ COPY ROOT.war /usr/local/tomcat/webapps/ROOT.war
 # Exponemos el puerto
 EXPOSE 8080
 
-# Arrancamos Tomcat
+# Arrancamos Tomcat Server
 CMD ["catalina.sh", "run"]
